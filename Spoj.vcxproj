@@ -140,7 +140,7 @@
     <ClCompile Include="J4Fun.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Prime1.cpp" />
-    <ClCompile Include="PRISMA.cpp" />
+    <ClCompile Include="PRISMSA.cpp" />
     <ClCompile Include="STRHH.cpp" />
     <ClCompile Include="TEST.cpp" />
   </ItemGroup>

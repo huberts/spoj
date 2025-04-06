@@ -1,5 +1,5 @@
 /*
-PRISMA: https://www.spoj.com/problems/PRISMA/
+PRISMA: https://www.spoj.com/problems/PRISMSA/
 C++ 14 (gcc 8.3)
 Zadanie polega na minimalizacji funkcji powierzchni S znaj¹c sta³¹ objêtoœæ V.
 S i V s¹ funkcjami dwóch parametrów: a i h.
@@ -19,19 +19,19 @@ Ostatecznie w programie obliczamy: d³ugoœæ boku a, a potem powierzchniê S. I dru
 using namespace std;
 static const double sin60 = sin(60 * 3.141592653589793 / 180);
 
-void PRISMA_calculateAndPrint(double V) {
+void PRISMSA_calculateAndPrint(double V) {
 	double a = cbrt((4 * V));
 	double S = a * a * sin60 + 6 * V / a / sin60;
 	printf("%.10f\n", S);
 }
 
-int PRISMA() {
+int PRISMSA() {
 	int count;
 	scanf("%d", &count);
 	for (int i = 0; i < count; ++i) {
 		int v;
 		scanf("%d", &v);
-		PRISMA_calculateAndPrint(v);
+		PRISMSA_calculateAndPrint(v);
 	}
 	return 0;
 }

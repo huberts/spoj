@@ -1,7 +1,7 @@
 int DIVSUM();
-int PRISMA();
+int PRISMSA();
 int TEST();
 
 int main() {
-  return PRISMA();
+  return PRISMSA();
 }

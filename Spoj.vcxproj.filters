@@ -34,7 +34,7 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="PRISMA.cpp">
+    <ClCompile Include="PRISMSA.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
