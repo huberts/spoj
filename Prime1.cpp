@@ -65,7 +65,7 @@ private:
 };
 
 
-int Prime1_main() {
+int PRIME1() {
 	int count;
 	scanf("%d", &count);
 	Prime1 sln;

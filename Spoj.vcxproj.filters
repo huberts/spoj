@@ -19,7 +19,7 @@
     <ClCompile Include="STRHH.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Prime1.cpp">
+    <ClCompile Include="PRIME1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="FCTRL.cpp">
