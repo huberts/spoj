@@ -37,5 +37,8 @@
     <ClCompile Include="PRISMSA.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="COINS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
