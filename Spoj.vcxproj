@@ -136,6 +136,7 @@
     <ClCompile Include="APLUSB2.cpp" />
     <ClCompile Include="BCEasy.cpp" />
     <ClCompile Include="COINS.cpp" />
+    <ClCompile Include="CPTTRN1.cpp" />
     <ClCompile Include="DIVSUM.cpp" />
     <ClCompile Include="FCTRL.cpp" />
     <ClCompile Include="J4Fun.cpp" />
