@@ -1,3 +1,4 @@
+int ADDREV();
 int COINS();
 int CPTTRN1();
 int CPTTRN2();
@@ -8,5 +9,5 @@ int PRISMSA();
 int TEST();
 
 int main() {
-  return INTEST();
+  return ADDREV();
 }

@@ -49,5 +49,8 @@
     <ClCompile Include="INTEST.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ADDREV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

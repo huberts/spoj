@@ -133,6 +133,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ADDREV.cpp" />
     <ClCompile Include="APLUSB2.cpp" />
     <ClCompile Include="BCEasy.cpp" />
     <ClCompile Include="COINS.cpp" />
