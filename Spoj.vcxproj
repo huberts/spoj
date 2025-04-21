@@ -140,6 +140,7 @@
     <ClCompile Include="CPTTRN2.cpp" />
     <ClCompile Include="DIVSUM.cpp" />
     <ClCompile Include="FCTRL.cpp" />
+    <ClCompile Include="INTEST.cpp" />
     <ClCompile Include="J4Fun.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PRIME1.cpp" />

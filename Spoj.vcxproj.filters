@@ -46,5 +46,8 @@
     <ClCompile Include="CPTTRN2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="INTEST.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
