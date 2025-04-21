@@ -1,3 +1,4 @@
+int ACPC10A();
 int ADDREV();
 int COINS();
 int CPTTRN1();
@@ -9,5 +10,5 @@ int PRISMSA();
 int TEST();
 
 int main() {
-  return ADDREV();
+  return ACPC10A();
 }
