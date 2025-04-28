@@ -142,6 +142,7 @@
     <ClCompile Include="CPTTRN2.cpp" />
     <ClCompile Include="DIVSUM.cpp" />
     <ClCompile Include="FCTRL.cpp" />
+    <ClCompile Include="FCTRL2.cpp" />
     <ClCompile Include="INTEST.cpp" />
     <ClCompile Include="J4Fun.cpp" />
     <ClCompile Include="main.cpp" />
@@ -149,6 +150,9 @@
     <ClCompile Include="PRISMSA.cpp" />
     <ClCompile Include="STRHH.cpp" />
     <ClCompile Include="TEST.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".editorconfig" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

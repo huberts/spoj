@@ -1,16 +1,16 @@
 /*
 PRISMA: https://www.spoj.com/problems/PRISMSA/
 C++ 14 (gcc 8.3)
-Zadanie polega na minimalizacji funkcji powierzchni S znaj¹c sta³¹ objêtoœæ V.
-S i V s¹ funkcjami dwóch parametrów: a i h.
-1. Okreœlamy h poprzez V i a w postaci: h = 2V / (a^2 * sin60)
-2. Okreœlamy S jako funkcjê a: S = a^2 * sin60 + 6V / (a * sin60)
-3. Aby zminimalizowaæ S nale¿y obliczyæ pochodn¹ i przyrównaæ j¹ do zera:
+Zadanie polega na minimalizacji funkcji powierzchni S znajï¿½c staï¿½ï¿½ objï¿½toï¿½ï¿½ V.
+S i V sï¿½ funkcjami dwï¿½ch parametrï¿½w: a i h.
+1. Okreï¿½lamy h poprzez V i a w postaci: h = 2V / (a^2 * sin60)
+2. Okreï¿½lamy S jako funkcjï¿½ a: S = a^2 * sin60 + 6V / (a * sin60)
+3. Aby zminimalizowaÄ‡ S naleÅ¼y obliczyÄ‡ pochodnÄ… i przyrï¿½wnaï¿½ jï¿½ do zera:
 S' = 2a * sin60 - 6V / (a^2 * sin60) = 0
-4. Po przekszta³ceniach:
+4. Po przeksztaï¿½ceniach:
 a = cbrt( 3V / sin^2(60) ) = cbrt(4 * V)
-(gdzie cbrt to pierwiastek szeœcienny)
-Ostatecznie w programie obliczamy: d³ugoœæ boku a, a potem powierzchniê S. I drukujemy j¹ na ekran z dok³adnoœci¹ do 10 miejsc po przecinku.
+(gdzie cbrt to pierwiastek szeï¿½cienny)
+Ostatecznie w programie obliczamy: dï¿½ugoï¿½ï¿½ boku a, a potem powierzchniï¿½ S. I drukujemy jï¿½ na ekran z dokï¿½adnoï¿½ciï¿½ do 10 miejsc po przecinku.
 */
 
 #include <iostream>
