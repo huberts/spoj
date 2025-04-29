@@ -5,7 +5,7 @@ using namespace std;
 
 typedef unsigned int UINT;
 
-void FCTRL2_calculateAndPrint(double n)
+void FCTRL2_calculateAndPrint(UINT n)
 {
   const UINT SIZE = 300;
   vector<UINT> result(SIZE, 0);
