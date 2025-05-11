@@ -1,87 +1,25 @@
 ﻿#include <iostream>
-
-using namespace std;
-
-typedef unsigned int UINT;
+#include <cmath>
 typedef unsigned long ULONG;
-
-void LASTDIG_calculateAndPrint(ULONG a, ULONG b)
+void LASTDIG_CalculateAndPrint(ULONG a, ULONG b)
 {
-  UINT result = 0;
-  if (b == 0) {
-    result = 1;
+  int r = a % 10;
+  if (b == 0) r = 1;
+  else {
+    if(a%10==2||a%10==3||a%10==7||a%10==8) r=(int)pow(a%10,b%4+4)%10;
+    if (a%10==4||a%10==9) r=(int)pow(a%10,b%2+2)%10;
   }
-  else
-  {
-    switch (a % 10)
-    {
-      case 0: result = 0; break;
-      case 1: result = 1; break;
-      case 2:
-        switch (b % 4)
-        {
-          case 0: result = 6; break;
-          case 1: result = 2; break;
-          case 2: result = 4; break;
-          case 3: result = 8; break;
-        }
-        break;
-      case 3:
-        switch (b % 4)
-        {
-          case 0: result = 1; break;
-          case 1: result = 3; break;
-          case 2: result = 9; break;
-          case 3: result = 7; break;
-        }
-        break;
-      case 4:
-        switch (b % 2)
-        {
-          case 0: result = 6; break;
-          case 1: result = 4; break;
-        }
-        break;
-      case 5: result = 5; break;
-      case 6: result = 6; break;
-      case 7:
-        switch (b % 4)
-        {
-          case 0: result = 1; break;
-          case 1: result = 7; break;
-          case 2: result = 9; break;
-          case 3: result = 3; break;
-        }
-        break;
-      case 8:
-        switch (b % 4)
-        {
-          case 0: result = 6; break;
-          case 1: result = 8; break;
-          case 2: result = 4; break;
-          case 3: result = 2; break;
-        }
-        break;
-      case 9:
-        switch (b % 2)
-        {
-          case 0: result = 1; break;
-          case 1: result = 9; break;
-        }
-        break;
-    }
-  }
-  cout << result << "\n"; 
+  std::cout << r << "\n"; 
 }
 
 int LASTDIG()
 {
-  UINT t;
-  cin >> t;
-  for (UINT i = 0; i < t; ++i) {
+  int t;
+  std::cin >> t;
+  for (int i = 0; i < t; ++i) {
     ULONG a, b;
-    cin >> a >> b;
-    LASTDIG_calculateAndPrint(a, b);
+    std::cin >> a >> b;
+    LASTDIG_CalculateAndPrint(a, b);
   }
   return 0;
 }
