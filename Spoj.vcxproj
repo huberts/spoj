@@ -145,6 +145,7 @@
     <ClCompile Include="FCTRL2.cpp" />
     <ClCompile Include="INTEST.cpp" />
     <ClCompile Include="J4Fun.cpp" />
+    <ClCompile Include="LASTDIG.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="NSTEPS.cpp" />
     <ClCompile Include="PRIME1.cpp" />
