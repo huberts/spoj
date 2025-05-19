@@ -8,6 +8,7 @@ int CPTTRN2();
 int DIVSUM();
 int FASHION();
 int FCTRL2();
+int HANGOVER();
 int INTEST();
 int LASTDIG();
 int NSTEPS();
@@ -16,5 +17,5 @@ int PRISMSA();
 int TEST();
 
 int main() {
-  return FASHION();
+  return HANGOVER();
 }
