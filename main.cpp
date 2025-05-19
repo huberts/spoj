@@ -15,8 +15,9 @@ int LASTDIG();
 int NSTEPS();
 int PRIME1();
 int PRISMSA();
+int STAMPS();
 int TEST();
 
 int main() {
-  return AP2();
+  return STAMPS();
 }
