@@ -1,5 +1,6 @@
 int ACPC10A();
 int ADDREV();
+int CANDY();
 int COINS();
 int CPTTRN1();
 int CPTTRN2();
@@ -13,5 +14,5 @@ int PRISMSA();
 int TEST();
 
 int main() {
-  return LASTDIG();
+  return CANDY();
 }

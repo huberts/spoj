@@ -137,6 +137,7 @@
     <ClCompile Include="ADDREV.cpp" />
     <ClCompile Include="APLUSB2.cpp" />
     <ClCompile Include="BCEasy.cpp" />
+    <ClCompile Include="CANDY.cpp" />
     <ClCompile Include="COINS.cpp" />
     <ClCompile Include="CPTTRN1.cpp" />
     <ClCompile Include="CPTTRN2.cpp" />
