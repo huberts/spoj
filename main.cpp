@@ -1,5 +1,6 @@
 int ACPC10A();
 int ADDREV();
+int AP2();
 int BUGLIFE();
 int CANDY();
 int COINS();
@@ -17,5 +18,5 @@ int PRISMSA();
 int TEST();
 
 int main() {
-  return HANGOVER();
+  return AP2();
 }

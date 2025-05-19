@@ -135,6 +135,7 @@
   <ItemGroup>
     <ClCompile Include="ACPC10A.cpp" />
     <ClCompile Include="ADDREV.cpp" />
+    <ClCompile Include="AP2.cpp" />
     <ClCompile Include="APLUSB2.cpp" />
     <ClCompile Include="BCEasy.cpp" />
     <ClCompile Include="BUGLIFE.cpp" />
@@ -307,6 +308,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".editorconfig" />
+    <Content Include="AP2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
