@@ -137,6 +137,7 @@
     <ClCompile Include="ADDREV.cpp" />
     <ClCompile Include="AP2.cpp" />
     <ClCompile Include="APLUSB2.cpp" />
+    <ClCompile Include="ARMY.cpp" />
     <ClCompile Include="BCEasy.cpp" />
     <ClCompile Include="BUGLIFE.cpp" />
     <ClCompile Include="CANDY.cpp" />

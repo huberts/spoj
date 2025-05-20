@@ -1,6 +1,7 @@
 int ACPC10A();
 int ADDREV();
 int AP2();
+int ARMY();
 int BUGLIFE();
 int CANDY();
 int COINS();
@@ -19,5 +20,5 @@ int STAMPS();
 int TEST();
 
 int main() {
-  return STAMPS();
+  return ARMY();
 }
