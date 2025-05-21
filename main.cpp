@@ -12,7 +12,9 @@ int FASHION();
 int FCTRL2();
 int HANGOVER();
 int INTEST();
+int INVCNT();
 int LASTDIG();
+int NGM();
 int NSTEPS();
 int PRIME1();
 int PRISMSA();
@@ -20,5 +22,5 @@ int STAMPS();
 int TEST();
 
 int main() {
-  return ARMY();
+  return NGM();
 }

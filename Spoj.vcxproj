@@ -298,9 +298,11 @@
       <LinkCompiled>true</LinkCompiled>
     </ClCompile>
     <ClCompile Include="INTEST.cpp" />
+    <ClCompile Include="INVCNT.cpp" />
     <ClCompile Include="J4Fun.cpp" />
     <ClCompile Include="LASTDIG.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="NGM.cpp" />
     <ClCompile Include="NSTEPS.cpp" />
     <ClCompile Include="PRIME1.cpp" />
     <ClCompile Include="PRISMSA.cpp" />
