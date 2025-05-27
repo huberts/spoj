@@ -3,44 +3,23 @@
 #include <queue>
 using namespace std;
 
-typedef unsigned int UINT;
-typedef queue<char> Q;
-
-bool isSmaller(Q a, Q b)
+int min_cyc(string s)
 {
-  while (!a.empty())
-  {
-    if (a.front() < b.front())
-    {
-      return true;
-    }
-    if (a.front() > b.front())
-    {
-      return false;
-    }
-    a.pop();
-    b.pop();
-  }
-  return false;
-}
+  int n = s.size();
+  s += s;
 
-void BEADS_calculateAndPrint(const Q& A)
-{
-  Q smallest = A;
-  Q test = A;
-  UINT result = 0;
-  for (UINT i = 0; i < A.size(); i++)
+  int res = 0;
+  for (int l = 0; l < n; )
   {
-    if (isSmaller(test, smallest))
-    {
-      smallest = test;
-      result = i;
-    }
-    char c = test.front();
-    test.pop();
-    test.push(c);
+    res = l;
+    int r = l, p = l + 1;
+    for (; p < s.size() && s[r] <= s[p]; ++r, ++p)
+      if (s[r] < s[p]) r = l - 1;
+
+    while (l <= r) l += p - r;
   }
-  cout << result + 1 << "\n";
+
+  return res + 1;
 }
 
 
@@ -50,14 +29,9 @@ int BEADS()
   cin >> t;
   for (int i = 0; i < t; i++)
   {
-    string in;
-    cin >> in;
-    Q A;
-    for (char c : in)
-    {
-      A.push(c);
-    }
-    BEADS_calculateAndPrint(A);
+    string s;
+    cin >> s;
+    cout << min_cyc(s) << "\n";
   }
   return 0;
 }
