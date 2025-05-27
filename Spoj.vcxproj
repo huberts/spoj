@@ -145,6 +145,7 @@
     <ClCompile Include="CPTTRN1.cpp" />
     <ClCompile Include="CPTTRN2.cpp" />
     <ClCompile Include="DIVSUM.cpp" />
+    <ClCompile Include="EIGHTS.cpp" />
     <ClCompile Include="FASHION.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>

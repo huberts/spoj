@@ -8,6 +8,7 @@ int COINS();
 int CPTTRN1();
 int CPTTRN2();
 int DIVSUM();
+int EIGHTS();
 int FASHION();
 int FCTRL2();
 int HANGOVER();
@@ -22,5 +23,5 @@ int STAMPS();
 int TEST();
 
 int main() {
-  return NGM();
+  return EIGHTS();
 }
