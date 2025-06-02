@@ -13,6 +13,7 @@ int EIGHTS();
 int FASHION();
 int FCTRL2();
 int HANGOVER();
+int HPYNOS();
 int INTEST();
 int INVCNT();
 int LASTDIG();
@@ -24,5 +25,5 @@ int STAMPS();
 int TEST();
 
 int main() {
-  return BEADS();
+  return HPYNOS();
 }

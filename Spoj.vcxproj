@@ -374,6 +374,7 @@
       <SDLCheck>true</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
     </ClCompile>
+    <ClCompile Include="HPYNOS.cpp" />
     <ClCompile Include="INTEST.cpp" />
     <ClCompile Include="INVCNT.cpp" />
     <ClCompile Include="J4Fun.cpp" />
