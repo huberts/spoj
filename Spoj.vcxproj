@@ -218,6 +218,7 @@
     <ClCompile Include="BUGLIFE.cpp" />
     <ClCompile Include="CANDY.cpp" />
     <ClCompile Include="COINS.cpp" />
+    <ClCompile Include="COMDIV.cpp" />
     <ClCompile Include="CPTTRN1.cpp" />
     <ClCompile Include="CPTTRN2.cpp" />
     <ClCompile Include="DIVSUM.cpp" />
@@ -299,6 +300,7 @@
     </ClCompile>
     <ClCompile Include="FCTRL.cpp" />
     <ClCompile Include="FCTRL2.cpp" />
+    <ClCompile Include="FENCE1.cpp" />
     <ClCompile Include="HANGOVER.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -378,6 +380,7 @@
     <ClCompile Include="INTEST.cpp" />
     <ClCompile Include="INVCNT.cpp" />
     <ClCompile Include="J4Fun.cpp" />
+    <ClCompile Include="JNEXT.cpp" />
     <ClCompile Include="LASTDIG.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="NGM.cpp" />

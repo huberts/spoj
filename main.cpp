@@ -6,16 +6,19 @@ int BEADS();
 int BUGLIFE();
 int CANDY();
 int COINS();
+int COMDIV();
 int CPTTRN1();
 int CPTTRN2();
 int DIVSUM();
 int EIGHTS();
 int FASHION();
 int FCTRL2();
+int FENCE1();
 int HANGOVER();
 int HPYNOS();
 int INTEST();
 int INVCNT();
+int JNEXT();
 int LASTDIG();
 int NGM();
 int NSTEPS();
@@ -25,5 +28,5 @@ int STAMPS();
 int TEST();
 
 int main() {
-  return HPYNOS();
+  return FENCE1();
 }
